@@ -12,7 +12,7 @@ const Layout = ({ children, data }) => (
       title={data.site.siteMetadata.title}
       meta={[
         {
-          name: 'description',
+          // name: 'description',
           content: 'This is a sample website for the Gatsby crash course',
         },
         { name: 'keywords', content: 'gatsby, react, tutorial' },
